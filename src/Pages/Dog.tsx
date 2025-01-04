@@ -1,7 +1,7 @@
 import React from "react";
 
 const Dog = () => {
-  return <div>Dog</div>;
+  return <div>DogPage</div>;
 };
 
 export default Dog;
