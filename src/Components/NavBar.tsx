@@ -16,7 +16,21 @@ function NavBar() {
             <Nav.Link as={Link} to="/dog">
               Dog's
             </Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link as={Link} to="/cat">
+              Cat's
+            </Nav.Link>
+            <Nav.Link as={Link} to="/SmallPet">
+              Small Pet's
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Bird">
+              Bird's
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Aquatic">
+              Aquatic's
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Vet">
+              Vet's
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
