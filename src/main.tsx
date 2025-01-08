@@ -37,6 +37,21 @@ import Care from "./Pages/CatalogPages/DogCatalog/DryFoodCatalog/Care.tsx";
 import Veterinary from "./Pages/CatalogPages/DogCatalog/DryFoodCatalog/Veterinary.tsx";
 import Taste from "./Pages/CatalogPages/DogCatalog/DryFoodCatalog/Taste.tsx";
 import Wolf from "./Pages/CatalogPages/DogCatalog/DryFoodCatalog/Wolf.tsx";
+import CatFlaps from "./Pages/CatalogPages/CatCatalog/CatFlaps.tsx";
+import CatTreats from "./Pages/CatalogPages/CatCatalog/CatTreats.tsx";
+import CatCare from "./Pages/CatalogPages/CatCatalog/CatCare.tsx";
+import CatSupplements from "./Pages/CatalogPages/CatCatalog/CatSupplements.tsx";
+import KittenProducts from "./Pages/CatalogPages/CatCatalog/KittenProducts.tsx";
+import PetParents from "./Pages/CatalogPages/CatCatalog/PetParents.tsx";
+import CatTrial from "./Pages/CatalogPages/CatCatalog/CatTrial.tsx";
+import CatNew from "./Pages/CatalogPages/CatCatalog/CatNew.tsx";
+import CatLitter from "./Pages/CatalogPages/CatCatalog/CatLitter.tsx";
+import CatTrees from "./Pages/CatalogPages/CatCatalog/CatTrees.tsx";
+import CatBaskets from "./Pages/CatalogPages/CatCatalog/CatBaskets.tsx";
+import CatToys from "./Pages/CatalogPages/CatCatalog/CatToys.tsx";
+import CatBowls from "./Pages/CatalogPages/CatCatalog/CatBowls.tsx";
+import CatCarriers from "./Pages/CatalogPages/CatCatalog/CatCarriers.tsx";
+import CatBreed from "./Pages/CatalogPages/CatCatalog/CatBreed.tsx";
 
 const router = createBrowserRouter([
   {
@@ -171,6 +186,70 @@ const router = createBrowserRouter([
   {
     path: "/DogTrial",
     element: <DogTrial />,
+  },
+  {
+    path: "/CatLitter",
+    element: <CatLitter />,
+  },
+  {
+    path: "/CatTrees",
+    element: <CatTrees />,
+  },
+  {
+    path: "/CatBaskets",
+    element: <CatBaskets />,
+  },
+  {
+    path: "/CatToys",
+    element: <CatToys />,
+  },
+  {
+    path: "/CatBowls",
+    element: <CatBowls />,
+  },
+  {
+    path: "/CatFlaps",
+    element: <CatFlaps />,
+  },
+  {
+    path: "/CatTreats",
+    element: <CatTreats />,
+  },
+  {
+    path: "/CatCare",
+    element: <CatCare />,
+  },
+  {
+    path: "/CatSupplements",
+    element: <CatSupplements />,
+  },
+  {
+    path: "/CatCarriers",
+    element: <CatCarriers />,
+  },
+  {
+    path: "/Kitten",
+    element: <KittenProducts />,
+  },
+  {
+    path: "/CatBreed",
+    element: <CatBreed />,
+  },
+  {
+    path: "/PetParents",
+    element: <PetParents />,
+  },
+  {
+    path: "/SpecialOffers",
+    element: <SpecialOffers />,
+  },
+  {
+    path: "/CatTrial",
+    element: <CatTrial />,
+  },
+  {
+    path: "/CatNew",
+    element: <CatNew />,
   },
 ]);
 
