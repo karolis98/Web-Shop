@@ -80,19 +80,45 @@ function BasicExample() {
             <Nav.Link as={Link} to="/CatTrees">
               Cat Trees & Cat Scratching Posts
             </Nav.Link>
-            <Nav.Link href="#link">Cat Baskets & Beds</Nav.Link>
-            <Nav.Link href="#link">Cat Toys</Nav.Link>
-            <Nav.Link href="#link">Cat Bowls & Fountains</Nav.Link>
-            <Nav.Link href="#link">Cat Flaps & Nets</Nav.Link>
-            <Nav.Link href="#link">Cat Treats & Grooming</Nav.Link>
-            <Nav.Link href="#link">Cat Supplements & Specialty Food</Nav.Link>
-            <Nav.Link href="#link">Cat Carriers & Transport</Nav.Link>
-            <Nav.Link href="#link">Kitten Products</Nav.Link>
-            <Nav.Link href="#link">Cat Breed Shop</Nav.Link>
-            <Nav.Link href="#link">Pet Parents - Everything for You</Nav.Link>
-            <Nav.Link href="#link">Cat Special Offers</Nav.Link>
-            <Nav.Link href="#link">Cat Trial Packs</Nav.Link>
-            <Nav.Link href="#link">Cat New Products</Nav.Link>
+            <Nav.Link as={Link} to="/CatBaskets">
+              Cat Baskets & Beds
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatToys">
+              Cat Toys
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatBowls">
+              Cat Bowls & Fountains
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatFlaps">
+              Cat Flaps & Nets
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatTreats">
+              Cat Treats & Grooming
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatSupplements">
+              Cat Supplements & Specialty Food
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatCarriers">
+              Cat Carriers & Transport
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Kitten">
+              Kitten Products
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatBreed">
+              Cat Breed Shop
+            </Nav.Link>
+            <Nav.Link as={Link} to="/PetParents">
+              Pet Parents - Everything for You
+            </Nav.Link>
+            <Nav.Link as={Link} to="/SpecialOffers">
+              Cat Special Offers
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatTrial">
+              Cat Trial Packs
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CatNew">
+              Cat New Products
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
