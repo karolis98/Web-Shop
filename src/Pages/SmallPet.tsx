@@ -9,23 +9,41 @@ function BasicExample() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Header />
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Small Pet Food</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+            <NavDropdown title="Small Pet Cages" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
+            </NavDropdown>
+            <NavDropdown
+              title="Rabbit & Guinea Pig Hutches"
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item href="#action/3.2">
+                Another action
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="#home">Rums & Fencing</Nav.Link>
+            <Nav.Link href="#home">Small Pet Food</Nav.Link>
+            <Nav.Link href="#home">Cage & Grooming</Nav.Link>
+            <Nav.Link href="#home">Snacks & Supplements</Nav.Link>
+            <Nav.Link href="#home">Hay & Straw</Nav.Link>
+            <Nav.Link href="#home">Care & Grooming</Nav.Link>
+            <Nav.Link href="#home">Toys & Travel</Nav.Link>
+            <Nav.Link href="#home">Rabbit</Nav.Link>
+            <Nav.Link href="#home">Guinea Pig</Nav.Link>
+            <Nav.Link href="#home">Hamster</Nav.Link>
+            <Nav.Link href="#home">Rat</Nav.Link>
+            <Nav.Link href="#home">Mouse</Nav.Link>
+            <Nav.Link href="#home">Chinchilla</Nav.Link>
+            <Nav.Link href="#home">Gerbil</Nav.Link>
+            <Nav.Link href="#home">Degu</Nav.Link>
+            <Nav.Link href="#home">Ferret</Nav.Link>
+            <Nav.Link href="#home">Small Pet Special Offers</Nav.Link>
+            <Nav.Link href="#home">Small Pet New Products</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

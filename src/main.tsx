@@ -52,6 +52,7 @@ import CatToys from "./Pages/CatalogPages/CatCatalog/CatToys.tsx";
 import CatBowls from "./Pages/CatalogPages/CatCatalog/CatBowls.tsx";
 import CatCarriers from "./Pages/CatalogPages/CatCatalog/CatCarriers.tsx";
 import CatBreed from "./Pages/CatalogPages/CatCatalog/CatBreed.tsx";
+import SmallPetFood from "./Pages/CatalogPages/SmallPetCatalog/SmallPetFood.tsx";
 
 const router = createBrowserRouter([
   {
