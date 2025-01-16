@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dog from "./Pages/Dog.tsx";
 import HomePage from "./Pages/HomePage.tsx";
 import Cat from "./Pages/Cat.tsx";
-import SmallPet from "./Pages/SmallPet.tsx";
+import SmallPet from "./Pages/SmallPetPg.tsx";
 import Bird from "./Pages/Bird.tsx";
 import Aquatic from "./Pages/Aquatic.tsx";
 import Vet from "./Pages/Vet.tsx";
@@ -52,7 +52,7 @@ import CatToys from "./Pages/CatalogPages/CatCatalog/CatToys.tsx";
 import CatBowls from "./Pages/CatalogPages/CatCatalog/CatBowls.tsx";
 import CatCarriers from "./Pages/CatalogPages/CatCatalog/CatCarriers.tsx";
 import CatBreed from "./Pages/CatalogPages/CatCatalog/CatBreed.tsx";
-import SmallPetFood from "./Pages/CatalogPages/SmallPetCatalog/SmallPetFood.tsx";
+import SmallPetPg from "./Pages/SmallPetPg.tsx";
 
 const router = createBrowserRouter([
   {
@@ -251,6 +251,13 @@ const router = createBrowserRouter([
   {
     path: "/CatNew",
     element: <CatNew />,
+  },
+  {
+    path: "/SmallPetPg",
+    element: <SmallPetPg />,
+  },
+  {
+    path: "/",
   },
 ]);
 
