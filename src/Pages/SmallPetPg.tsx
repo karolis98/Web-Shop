@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
 
 function BasicExample() {
   return (
@@ -26,14 +27,30 @@ function BasicExample() {
                 Another action
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#home">Rums & Fencing</Nav.Link>
-            <Nav.Link href="#home">Small Pet Food</Nav.Link>
-            <Nav.Link href="#home">Cage & Grooming</Nav.Link>
-            <Nav.Link href="#home">Snacks & Supplements</Nav.Link>
-            <Nav.Link href="#home">Hay & Straw</Nav.Link>
-            <Nav.Link href="#home">Care & Grooming</Nav.Link>
-            <Nav.Link href="#home">Toys & Travel</Nav.Link>
-            <Nav.Link href="#home">Rabbit</Nav.Link>
+            <Nav.Link as={Link} to="/RunsFencing">
+              Runs & Fencing
+            </Nav.Link>
+            <Nav.Link as={Link} to="/SmallPetFood">
+              Small Pet Food
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CagesAccessories">
+              Cage Accessories
+            </Nav.Link>
+            <Nav.Link as={Link} to="/SnacksSupplements">
+              Snacks & Supplements
+            </Nav.Link>
+            <Nav.Link as={Link} to="/HayStraw">
+              Hay & Straw
+            </Nav.Link>
+            <Nav.Link as={Link} to="/CageGrooming">
+              Care & Grooming
+            </Nav.Link>
+            <Nav.Link as={Link} to="/ToyTravel">
+              Toys & Travel
+            </Nav.Link>
+            <Nav.Link as={Link} to="/Rabbit">
+              Rabbit
+            </Nav.Link>
             <Nav.Link href="#home">Guinea Pig</Nav.Link>
             <Nav.Link href="#home">Hamster</Nav.Link>
             <Nav.Link href="#home">Rat</Nav.Link>

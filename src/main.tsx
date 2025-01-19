@@ -53,6 +53,16 @@ import CatBowls from "./Pages/CatalogPages/CatCatalog/CatBowls.tsx";
 import CatCarriers from "./Pages/CatalogPages/CatCatalog/CatCarriers.tsx";
 import CatBreed from "./Pages/CatalogPages/CatCatalog/CatBreed.tsx";
 import SmallPetPg from "./Pages/SmallPetPg.tsx";
+import BirdCagesAccessories from "./Pages/CatalogPages/BirdCatalog/BirdCageAccessories.tsx";
+import BirdSnacksCrackers from "./Pages/CatalogPages/BirdCatalog/BirdSnacksCrackers.tsx";
+import BirdToys from "./Pages/CatalogPages/BirdCatalog/BirdToys.tsx";
+import BirdFoodSupplements from "./Pages/CatalogPages/BirdCatalog/BirdFoodSupplements.tsx";
+import BirdCageBeddingLitter from "./Pages/CatalogPages/BirdCatalog/BirdCageBeddingLitter.tsx";
+import WildBird from "./Pages/CatalogPages/BirdCatalog/WildBirds.tsx";
+import OtherBirdSupplies from "./Pages/CatalogPages/BirdCatalog/OtherBirdSupplies.tsx";
+import BirdSpecialOffers from "./Pages/CatalogPages/BirdCatalog/BirdSpecialOffers.tsx";
+import BirdNewProducts from "./Pages/CatalogPages/BirdCatalog/BirdNewProducts.tsx";
+import RunsFencing from "./Pages/CatalogPages/SmallPetCatalog/RunsFencing.tsx";
 
 const router = createBrowserRouter([
   {
@@ -256,8 +266,52 @@ const router = createBrowserRouter([
     path: "/SmallPetPg",
     element: <SmallPetPg />,
   },
+  // SmallPet Routs
   {
-    path: "/",
+    path: "/RunsFencing",
+    element: <RunsFencing />,
+  },
+  // bird Routs
+  {
+    path: "/BirdCagesAccessories",
+    element: <BirdCagesAccessories />,
+  },
+  {
+    path: "/BirdSnacksCrackers",
+    element: <BirdSnacksCrackers />,
+  },
+  {
+    path: "/BirdToys",
+    element: <BirdToys />,
+  },
+  {
+    path: "/BirdFoodSupplements",
+    element: <BirdFoodSupplements />,
+  },
+  {
+    path: "/BirdCageBeddingLitter",
+    element: <BirdCageBeddingLitter />,
+  },
+  {
+    path: "/WildBird",
+    element: <WildBird />,
+  },
+  {
+    path: "/OtherBirdSupplies",
+    element: <OtherBirdSupplies />,
+  },
+  {
+    path: "/BirdSpecialOffers",
+    element: <BirdSpecialOffers />,
+  },
+  {
+    path: "/BirdNewProducts",
+    element: <BirdNewProducts />,
+  },
+  // Aquatic Routs
+  {
+    path: "/Aquatic",
+    element: <Aquatic />,
   },
 ]);
 
