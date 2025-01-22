@@ -271,6 +271,11 @@ const router = createBrowserRouter([
     path: "/RunsFencing",
     element: <RunsFencing />,
   },
+  {
+    path: "/RunsFencing",
+    element: <RunsFencing />,
+  },
+
   // bird Routs
   {
     path: "/BirdCagesAccessories",
